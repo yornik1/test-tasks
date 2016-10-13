@@ -1,0 +1,7 @@
+templates/
+.idea
+/parse/migrations/
+*.sqlite3
+__init__.py
+*.pyc
+*.pyo
