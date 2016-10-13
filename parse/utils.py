@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
-import os
-import django
 from django.db import IntegrityError
-from sys import path as sys_path
 import json
 import urllib.request
-URL_JSON = 'http://www.test.d-cod.com/eFw3Cefj.json'
-# sys_path.append('..')
-# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "testdcod.settings")
-# django.setup()
 from parse.models import Region, Country
+
+URL_JSON = 'http://www.test.d-cod.com/eFw3Cefj.json'
 
 
 def get_data():
